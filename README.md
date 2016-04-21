@@ -1,4 +1,4 @@
-# next-day
+# next-day [![Build Status](https://travis-ci.org/tanhauhau/next-day.svg?branch=master)](https://travis-ci.org/tanhauhau/next-day)
 
 > Get the coming day of the week, eg: coming Thursday
 
