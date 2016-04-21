@@ -1,0 +1,31 @@
+{
+  "name": "next-day",
+  "version": "0.0.0",
+  "description": "Get the coming day of the week, eg: coming Thursday",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanhauhau/next-day.git"
+  },
+  "keywords": [
+    "day",
+    "nodejs",
+    "javascript",
+    "date",
+    "util"
+  ],
+  "author": "Tan Li Hau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanhauhau/next-day/issues"
+  },
+  "homepage": "https://github.com/tanhauhau/next-day#readme",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {}
+}
