@@ -1,6 +1,6 @@
 {
   "name": "next-day",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Get the coming day of the week, eg: coming Thursday",
   "main": "index.js",
   "scripts": {
