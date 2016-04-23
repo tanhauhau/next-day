@@ -1,4 +1,10 @@
-# next-day [![Build Status](https://travis-ci.org/tanhauhau/next-day.svg?branch=master)](https://travis-ci.org/tanhauhau/next-day)
+# next-day
+[![Build Status](https://travis-ci.org/tanhauhau/next-day.svg?branch=master)](https://travis-ci.org/tanhauhau/next-day)
+[![npm version](https://badge.fury.io/js/next-day.svg)](https://badge.fury.io/js/next-day)
+[![Dependency status](https://david-dm.org/tanhauhau/next-day.svg)](https://david-dm.org)
+[![Downloads](https://img.shields.io/npm/dt/next-day.svg)](https://www.npmjs.com/package/next-day)
+[![Donate](https://img.shields.io/gratipay/user/tanhauhau.svg)](https://gratipay.com/~tanhauhau/)
+
 
 > Get the coming day of the week, eg: coming Thursday
 
@@ -15,6 +21,9 @@ var nextDay = require('next-day');
 // get next Monday
 nextDay(new Date(), 1); // returns { date: [Date] , dayLeft: 4 }
                                             ^ date object    ^ day left till next monday
+
+// or equivalent to
+nextDay(new Date(), nextDay.Monday);
 ```
 
 

@@ -14,4 +14,12 @@ function nextDay(date, day){
     };
 }
 
+nextDay.Monday = 1;
+nextDay.Tueday = 2;
+nextDay.Wednesday = 3;
+nextDay.Thursday = 4;
+nextDay.Friday = 5;
+nextDay.Saturday = 6;
+nextDay.Sunday = 7;
+
 exports = module.exports = nextDay;

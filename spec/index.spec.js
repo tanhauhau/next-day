@@ -54,4 +54,14 @@ describe("Works fine", function() {
         expect(nextSunday.dayLeft).toEqual(3);
         expect(nextSunday).toEqual(nextDay(today, 0));
     });
+
+    it("Constant", function(){
+        expect(nextDay.Monday).toEqual(1);
+        expect(nextDay.Tueday).toEqual(2);
+        expect(nextDay.Wednesday).toEqual(3);
+        expect(nextDay.Thursday).toEqual(4);
+        expect(nextDay.Friday).toEqual(5);
+        expect(nextDay.Saturday).toEqual(6);
+        expect(nextDay.Sunday).toEqual(7);
+    });
 });
