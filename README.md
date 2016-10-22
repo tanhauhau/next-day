@@ -4,6 +4,7 @@
 [![Dependency status](https://david-dm.org/tanhauhau/next-day.svg)](https://david-dm.org)
 [![Downloads](https://img.shields.io/npm/dt/next-day.svg)](https://www.npmjs.com/package/next-day)
 [![Donate](https://img.shields.io/gratipay/user/tanhauhau.svg)](https://gratipay.com/~tanhauhau/)
+[![codecov](https://codecov.io/gh/tanhauhau/next-day/branch/master/graph/badge.svg)](https://codecov.io/gh/tanhauhau/next-day)
 
 
 > Get the coming day of the week, eg: coming Thursday

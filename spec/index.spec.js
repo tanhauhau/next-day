@@ -64,4 +64,9 @@ describe("Works fine", function() {
         expect(nextDay.Saturday).toEqual(6);
         expect(nextDay.Sunday).toEqual(7);
     });
+
+    it("undefined", function(){
+        expect(nextDay(today, -1)).toBeUndefined();
+        expect(nextDay(today, 8)).toBeUndefined();
+    });
 });
