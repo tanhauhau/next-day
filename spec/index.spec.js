@@ -11,12 +11,12 @@ describe("Works fine", function() {
         expect(nextMonday.dayLeft).toBeDefined();
         expect(nextMonday.dayLeft).toEqual(4);
     });
-    it("Tueday", function(){
-        var nextTueday = nextDay(today, 2);
-        expect(nextTueday.date).toBeDefined();
-        expect(nextTueday.date).toEqual(new Date(2016,3,26));
-        expect(nextTueday.dayLeft).toBeDefined();
-        expect(nextTueday.dayLeft).toEqual(5);
+    it("Tuesday", function(){
+        var nextTuesday = nextDay(today, 2);
+        expect(nextTuesday.date).toBeDefined();
+        expect(nextTuesday.date).toEqual(new Date(2016,3,26));
+        expect(nextTuesday.dayLeft).toBeDefined();
+        expect(nextTuesday.dayLeft).toEqual(5);
     });
     it("Wednesday", function(){
         var nextWednesday = nextDay(today, 3);
@@ -57,7 +57,7 @@ describe("Works fine", function() {
 
     it("Constant", function(){
         expect(nextDay.Monday).toEqual(1);
-        expect(nextDay.Tueday).toEqual(2);
+        expect(nextDay.Tuesday).toEqual(2);
         expect(nextDay.Wednesday).toEqual(3);
         expect(nextDay.Thursday).toEqual(4);
         expect(nextDay.Friday).toEqual(5);
