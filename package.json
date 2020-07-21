@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/tanhauhau/next-day#readme",
   "devDependencies": {
-    "codecov": "^1.0.0",
+    "codecov": "^3.7.1",
     "istanbul": "^0.3.2",
     "jasmine": "^2.4.1",
     "jasmine-node": "^1.14.5"
